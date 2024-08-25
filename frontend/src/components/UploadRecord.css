@@ -1,0 +1,125 @@
+/* UploadRecord.css */
+
+.upload-record {
+    padding: 20px;
+    background: linear-gradient(135deg, #f0f4f8, #e2e2e2);
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-record h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .upload-record p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Upload Area Styling */
+  .upload-area {
+    border: 3px dashed #007bff;
+    border-radius: 12px;
+    padding: 40px;
+    background-color: #ffffff;
+    transition: background-color 0.3s, border-color 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .upload-area:hover {
+    background-color: #f0f8ff;
+    border-color: #0056b3;
+  }
+  
+  .upload-area p {
+    margin: 0;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* File Input Hidden */
+  .upload-area input[type="file"] {
+    display: none;
+  }
+  
+  /* Button Styling */
+  .upload-button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 15px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .upload-button:hover {
+    background: linear-gradient(135deg, #0056b3, #00408d);
+    transform: scale(1.05);
+  }
+  
+  .upload-button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Recording Controls Styling */
+  .recording-controls {
+    margin-top: 30px;
+  }
+  
+  .recording-controls button {
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .recording-controls button:hover {
+    background: linear-gradient(135deg, #218838, #1e7e34);
+    transform: scale(1.05);
+  }
+  
+  .recording-controls button:active {
+    transform: scale(0.98);
+  }
+  
+  .recording-status {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  .transcript {
+    margin-top: 20px;
+  }
+  
+  .transcript h2 {
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .transcript p {
+    font-size: 16px;
+    color: #333;
+  }
+  
