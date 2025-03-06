@@ -1,0 +1,95 @@
+/* Translation.css */
+
+/* Scope styles to Translation component */
+.translation {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.translation h1 {
+  font-size: 26px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.translation .translated-output {
+  margin-top: 20px;
+}
+
+.translation .translated-output h2 {
+  font-size: 22px;
+  color: #2980b9;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.translation ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.translation ul li {
+  background-color: #ecf0f1;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.translation ul li strong {
+  color: #34495e;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.translation ul li a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1abc9c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.translation ul li a:hover {
+  text-decoration: underline;
+}
+
+.translation p {
+  font-size: 16px;
+  text-align: center;
+  color: #7f8c8d;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .translation {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .translation h1 {
+    font-size: 22px;
+  }
+
+  .translation .translated-output h2 {
+    font-size: 18px;
+  }
+
+  .translation ul li {
+    padding: 12px;
+  }
+
+  .translation ul li strong {
+    font-size: 14px;
+  }
+
+  .translation ul li a {
+    font-size: 14px;
+  }
+}

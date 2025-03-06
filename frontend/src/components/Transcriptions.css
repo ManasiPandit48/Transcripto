@@ -1,0 +1,134 @@
+.transcriptions {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.transcriptions h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.transcriptions p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.transcription-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transcription-table th, .transcription-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.transcription-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.transcription-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transcription-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.transcription-table button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.transcription-table button:hover {
+  opacity: 0.9;
+}
+
+.transcription-table button:nth-child(1) {
+  background-color: #007BFF;
+  color: white;
+}
+
+.transcription-table button:nth-child(2) {
+  background-color: #DC3545;
+  color: white;
+}
+
+.transcription-table button:nth-child(3) {
+  background-color: #FFC107;
+  color: white;
+}
+
+.edit-mode {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-mode h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.edit-mode textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  resize: vertical;
+  margin-bottom: 15px;
+}
+
+.edit-buttons {
+  text-align: center;
+}
+
+.edit-buttons button {
+  padding: 10px 15px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.edit-buttons button:hover {
+  opacity: 0.8;
+}
+
+.edit-buttons button:nth-child(1) {
+  background-color: #28a745;
+  color: white;
+}
+
+.edit-buttons button:nth-child(2) {
+  background-color: #dc3545;
+  color: white;
+}

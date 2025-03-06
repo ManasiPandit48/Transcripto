@@ -1,0 +1,68 @@
+/* Navbar.css */
+/* Main Navbar Styling */
+.navbar {
+  background-color: black; /* Black background */
+  padding: 10px 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 26px;
+  font-weight: bold;
+  color: #f8cdda; /* Logo color */
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 5px rgba(248, 205, 218, 0.5); /* Logo text shadow */
+}
+
+.navbar-brand:hover {
+  color: #f8cdda; /* Keep logo color on hover */
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #ffffff; /* Text color for links */
+  text-transform: uppercase;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff; /* Text color on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Slight background on hover */
+  border-radius: 4px;
+}
+
+.navbar-toggler {
+  border-color: #f8cdda; /* Toggler border color */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(248, 205, 218, 0.7)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Custom color for the toggler icon */
+}
+
+.navbar-collapse.show {
+  background-color: black; /* Background for collapsed menu */
+}
+
+.btn-outline-light {
+  border-color: #f8cdda; /* Button border color */
+  color: #f8cdda; /* Button text color */
+}
+
+.btn-outline-light:hover {
+  background-color: #f8cdda; /* Button background on hover */
+  color: black; /* Text color on hover */
+}
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    font-size: 22px; /* Adjusted logo font size for smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 12px; /* Smaller font size for menu items on smaller screens */
+  }
+}
